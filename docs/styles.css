@@ -11,6 +11,180 @@
   --code: #101827;
 }
 
+/* Figma Make project-page visual refresh */
+:root {
+  --page-bg: #f7f9fc;
+  --bg: #f7f9fc;
+  --panel: #ffffff;
+  --surface: #ffffff;
+  --surface-soft: #f1f5f9;
+  --ink: #111827;
+  --muted: #667085;
+  --line: #d9e2ec;
+  --accent: #0f766e;
+  --accent-strong: #0b5e59;
+  --warm: #b95f10;
+  --blue: #2f63d8;
+  --code: #101820;
+  --shadow: 0 18px 45px rgba(17, 24, 39, 0.08);
+  --shadow-lg: 0 30px 90px rgba(17, 24, 39, 0.14);
+}
+
+body {
+  background:
+    linear-gradient(180deg, rgba(15, 118, 110, 0.08), rgba(247, 249, 252, 0) 420px),
+    linear-gradient(90deg, rgba(17, 24, 39, 0.045) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(17, 24, 39, 0.045) 1px, transparent 1px),
+    var(--page-bg);
+  background-size: auto, 48px 48px, 48px 48px, auto;
+}
+
+.site-header {
+  min-height: 72px;
+  border-bottom: 1px solid rgba(217, 226, 236, 0.92);
+  background: rgba(247, 249, 252, 0.88);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.74) inset;
+}
+
+.brand img {
+  border-radius: 8px;
+}
+
+.nav a {
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.nav a:hover {
+  background: rgba(255, 255, 255, 0.76);
+}
+
+.hero {
+  min-height: calc(94vh - 72px);
+  background: transparent;
+  padding-top: clamp(62px, 8vw, 108px);
+}
+
+.hero-copy {
+  max-width: 820px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border: 1px solid rgba(15, 118, 110, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--accent-strong);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+h1,
+h2 {
+  color: #0f172a;
+  text-wrap: balance;
+}
+
+.lead,
+.feature-grid p,
+.flow p,
+.stats-band span,
+.panel-header span,
+.metrics span {
+  color: #516070;
+}
+
+.button {
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 28px rgba(17, 24, 39, 0.09);
+}
+
+.button.primary {
+  border-color: #111827;
+  background: #111827;
+  box-shadow: 0 16px 32px rgba(17, 24, 39, 0.16);
+}
+
+.button.primary:hover {
+  background: var(--accent-strong);
+  border-color: var(--accent-strong);
+}
+
+.button.secondary {
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: var(--shadow);
+}
+
+.engine-panel,
+.stats-band div,
+.feature-grid article,
+.architecture-figure,
+.code-grid > div,
+.table-wrap {
+  background: rgba(255, 255, 255, 0.86);
+  border-color: var(--line);
+  box-shadow: var(--shadow);
+}
+
+.engine-panel {
+  box-shadow: var(--shadow-lg);
+}
+
+.pipeline span {
+  background: var(--code);
+}
+
+.metrics div {
+  background: var(--surface-soft);
+}
+
+.section {
+  border-top: 1px solid rgba(217, 226, 236, 0.82);
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.stats-band {
+  background: transparent;
+  gap: 14px;
+  padding-top: 0;
+  padding-bottom: 22px;
+}
+
+.stats-band div,
+.feature-grid article,
+.code-grid > div {
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.stats-band div:hover,
+.feature-grid article:hover,
+.code-grid > div:hover {
+  transform: translateY(-2px);
+  border-color: #c6d3df;
+  box-shadow: var(--shadow-lg);
+}
+
+.architecture,
+.usage {
+  background: rgba(241, 245, 249, 0.72);
+}
+
+pre {
+  background: var(--code);
+}
+
+.footer {
+  border-top: 1px solid var(--line);
+  background: #ffffff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -424,4 +598,56 @@ tr:last-child td {
   .footer {
     flex-direction: column;
   }
+}
+
+/* Final Figma Make project-page overrides */
+body {
+  background:
+    linear-gradient(180deg, rgba(15, 118, 110, 0.08), rgba(247, 249, 252, 0) 420px),
+    linear-gradient(90deg, rgba(17, 24, 39, 0.045) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(17, 24, 39, 0.045) 1px, transparent 1px),
+    var(--page-bg);
+  background-size: auto, 48px 48px, 48px 48px, auto;
+}
+
+.site-header {
+  background: rgba(247, 249, 252, 0.88);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.74) inset;
+}
+
+.hero {
+  min-height: calc(94vh - 72px);
+  background: transparent;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border: 1px solid rgba(15, 118, 110, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--accent-strong);
+}
+
+.engine-panel,
+.stats-band div,
+.feature-grid article,
+.architecture-figure,
+.code-grid > div,
+.table-wrap {
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: var(--shadow);
+}
+
+.engine-panel {
+  box-shadow: var(--shadow-lg);
+}
+
+.stats-band div:hover,
+.feature-grid article:hover,
+.code-grid > div:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
