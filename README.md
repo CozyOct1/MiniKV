@@ -426,10 +426,6 @@ make test
 - 实现 LRU Cache 缓存热点 key，并通过读写锁优化并发访问路径，提升热点查询吞吐。
 - 编写 CLI 和 Benchmark 工具，对顺序写、随机读和 Compaction 场景进行测试，统计 QPS、P95、P99 和磁盘占用变化。
 
-## 作者
-
-CozyOct1
-
 ## 版权说明
 
 该项目签署 MIT 授权许可，详情请参阅 [LICENSE](LICENSE)。
