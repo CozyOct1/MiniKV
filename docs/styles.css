@@ -289,31 +289,19 @@ h3 {
   background: #ffffff;
 }
 
-.flow {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 12px;
-}
-
-.flow div {
-  min-height: 178px;
-  padding: 20px;
+.architecture-figure {
+  overflow-x: auto;
+  padding: 14px;
+  background: #fff;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #f8fafc;
 }
 
-.flow span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  margin-bottom: 16px;
-  color: #fff;
-  background: var(--accent);
-  border-radius: 50%;
-  font-weight: 800;
+.architecture-figure img {
+  display: block;
+  width: 100%;
+  min-width: 980px;
+  height: auto;
 }
 
 .usage {

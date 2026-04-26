@@ -111,12 +111,8 @@
         <p class="eyebrow">Architecture</p>
         <h2>LSM 风格的数据流</h2>
       </div>
-      <div class="flow">
-        <div><span>1</span><strong>API</strong><p>接收 Put、Get、Delete 请求</p></div>
-        <div><span>2</span><strong>WAL</strong><p>追加日志，支持重启恢复</p></div>
-        <div><span>3</span><strong>MemTable</strong><p>有序内存表承载近期写入</p></div>
-        <div><span>4</span><strong>SSTable</strong><p>落盘为不可变有序文件</p></div>
-        <div><span>5</span><strong>Compaction</strong><p>合并历史版本并回收空间</p></div>
+      <div class="architecture-figure">
+        <img src="./assets/minkv_framework.png" alt="MiniKV 架构图，展示接入层、核心控制层、写入路径、读取路径、存储与后台维护流程">
       </div>
     </section>
 
