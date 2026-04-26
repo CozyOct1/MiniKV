@@ -1,0 +1,27 @@
+<svg width="1020" height="320" viewBox="0 0 1020 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1020" height="320" fill="#ffffff"/>
+  <circle cx="64" cy="116" r="16" fill="#1168e8"/>
+  <circle cx="100" cy="178" r="16" fill="#172333"/>
+  <circle cx="64" cy="240" r="16" fill="#34b353"/>
+  <path d="M74 132L92 166M92 190L74 224" stroke="#172333" stroke-width="7" stroke-linecap="round"/>
+  <path d="M175 86C187 79 202 79 214 86L314 137C330 145 330 168 314 176L214 228C202 234 187 234 175 228L75 176C59 168 59 145 75 137L175 86Z" fill="#146BEF"/>
+  <path d="M93 190L175 232C187 239 202 239 214 232L296 190C306 185 318 192 318 203V226C318 234 313 242 305 246L214 293C202 299 187 299 175 293L84 246C76 242 71 234 71 226V203C71 192 83 185 93 190Z" fill="#34B353"/>
+  <path d="M93 153L175 195C187 202 202 202 214 195L296 153C306 148 318 155 318 166V190C318 198 313 206 305 210L214 257C202 263 187 263 175 257L84 210C76 206 71 198 71 190V166C71 155 83 148 93 153Z" fill="#172333"/>
+  <path d="M137 122H153V146L174 122H193L166 151L195 191H176L155 162L153 164V191H137V122Z" fill="white"/>
+  <path d="M228 122H246L267 170L288 122H306L276 191H258L228 122Z" fill="white"/>
+  <path d="M195 91V192" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="195" cy="157" r="13" fill="#146BEF" stroke="white" stroke-width="6"/>
+  <circle cx="226" cy="204" r="6" fill="#146BEF"/>
+  <circle cx="246" cy="194" r="6" fill="white"/>
+  <circle cx="265" cy="187" r="6" fill="white"/>
+  <path d="M334 140C358 151 368 177 356 202" stroke="#172333" stroke-width="6" stroke-linecap="round" stroke-dasharray="9 11"/>
+  <path d="M342 215L365 203L361 229L342 215Z" fill="#172333"/>
+  <path d="M420 134H449L489 197L529 134H558V239H529V181L498 229H481L449 181V239H420V134Z" fill="#172333"/>
+  <path d="M582 162H610V239H582V162Z" fill="#172333"/>
+  <circle cx="596" cy="135" r="14" fill="#172333"/>
+  <path d="M632 162H659V173C665 164 675 159 688 159C706 159 720 172 720 195V239H692V199C692 189 686 183 677 183C667 183 660 190 660 202V239H632V162Z" fill="#172333"/>
+  <path d="M742 162H770V239H742V162Z" fill="#172333"/>
+  <circle cx="756" cy="135" r="14" fill="#172333"/>
+  <path d="M792 134H821V177L859 134H894L850 181L898 239H862L829 199L821 207V239H792V134Z" fill="#146BEF"/>
+  <path d="M885 134H918L943 202L968 134H1000L956 239H930L885 134Z" fill="#146BEF"/>
+</svg>
