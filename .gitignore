@@ -1,0 +1,7 @@
+build/
+bench_data/
+data/
+test_data_*/
+*.wal
+*.sst
+.codex
